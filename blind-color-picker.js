@@ -1,14 +1,11 @@
 #! /usr/bin/env babel-node
-const palette = [
-	{
+const palette = [{
 		c: '#FFFFFF',
 		name: 'Theme-light-text'
-	},
-	{
+	}, {
 		c: {r: 122, g: 122, b: 122},
 		name: 'Theme-light-dark'
-	},
-	{
+	}, {
 		c: {r: 0, g: 0, b: 0},
 		name: 'Theme-light-bg'
 	},
@@ -64,9 +61,9 @@ const toRGB = function(color) {
 }
 
 const colorDistance = function(color1, color2) {
-	return Math.sqrt(color1.r * color2.r
-		+ color1.g * color2.g
-		+ color1.b * color2.b) / Math.sqrt(3) / 255;
+	return Math.sqrt(Math.pow(color1.r - color2.r, 2)
+		+ Math.pow(color1.g - color2.g, 2)
+		+ Math.pow(color1.b - color2.b, 2)) / Math.sqrt(3) / 255;
 }
 
 const blindColor = toRGB(process.argv[2]);
