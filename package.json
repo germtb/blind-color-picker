@@ -1,0 +1,19 @@
+{
+  "name": "blind-color-picker",
+  "version": "1.0.0",
+  "description": "",
+  "bin": "./blind-color-picker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/germtb/blind-color-picker.git"
+  },
+  "author": "Gerard Moreno-Torres Bertran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/germtb/blind-color-picker/issues"
+  },
+  "homepage": "https://github.com/germtb/blind-color-picker#readme"
+}
