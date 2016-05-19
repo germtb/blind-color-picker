@@ -1,3 +1,4 @@
+// This is the palette of colors from which the final color will be picked
 const palette = [{
 		c: '#FFFFFF',
 		name: 'Theme-light-text'
